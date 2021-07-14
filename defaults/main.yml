@@ -1,0 +1,4 @@
+---
+
+prometheus_config_template: ''
+prometheus_env_file: 'prometheus.env'

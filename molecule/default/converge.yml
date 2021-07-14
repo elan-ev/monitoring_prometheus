@@ -1,0 +1,8 @@
+---
+- name: converge
+  hosts: all
+  become: true
+  tasks:
+    - name: include prometheus
+      include_role:
+        name: monitoring_prometheus
