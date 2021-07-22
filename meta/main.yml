@@ -1,6 +1,6 @@
 galaxy_info:
   role_name: monitoring_prometheus
-  namespace: tibroc
+  namespace: elan
   author: Timo Nogueira Brockmeyer
   description: install prometheus
   company: virtUOS
