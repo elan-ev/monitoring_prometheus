@@ -22,7 +22,8 @@ Just add the role to your playbook:
 - hosts: all
   become: true
   roles:
-    - elan.monitoring_prometheus
+    - role: elan.monitoring_prometheus
+      prometheus_config_template: 'custom_templates/prometheus.yml.j2'
 ```
 
 ## Development
