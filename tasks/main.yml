@@ -9,6 +9,7 @@
   user:
     name: prometheus
     state: present
+    create_home: false
 
 - name: create prometheus directories
   file:
